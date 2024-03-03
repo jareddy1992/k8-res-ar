@@ -4,9 +4,8 @@ metadata:
   name: nginx
 spec:
   containers:
-    name: nginx1
+    name: nginx
     image: nginx
     ImagePullPolicy: Always
     ports:
       containerPort: 80
-      
