@@ -1,4 +1,11 @@
 apiVersion: v1
-kind: nameSpace
+kind: Namespace
 metadata:
   name: roboshop
+  label: env
+# ---
+# kind: Namespace
+# metadata:
+#   name: roboshop-QA
+#   label: env
+
