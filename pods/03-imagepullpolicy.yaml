@@ -1,11 +1,11 @@
-apiVersion: v1
+aapiVersion: v1
 kind: Pod
 metadata:
   name: nginx
+  namespace: roboshop
 spec:
   containers:
-    name: nginx
+  - name: nginx
     image: nginx
     ImagePullPolicy: Always
-    ports:
-      containerPort: 80
+    
