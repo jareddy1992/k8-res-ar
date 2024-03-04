@@ -8,10 +8,10 @@ spec:
   - name: stress
     image: jareddy1992/stress:v2
     command: ["sleep","200"]
-    resources: 
-     requests:
-      cpu: "150m"
-      memory: "256Mi"
-    limits:
-      cpu: "200m"
-      memory: "300Mi"
+     resources:
+      requests:
+        memory: "256Mi"
+        cpu: "200m"
+      limits:
+        memory: "300Mi"
+        cpu: "500m"
