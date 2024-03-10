@@ -6,10 +6,10 @@ metadata:
   labels:
     app: nginx
 spec:
-  replicas: 3
+  replicas: 10
   selector:
     matchLabels:
-      app: nginx
+      app: nginx # if need add rolling update stratagy
   template:
     metadata:
       labels:
